@@ -1,0 +1,116 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: lightgray;
+    border-radius: 12px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 40px;
+    font-family: rubik;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.icons {
+    float: right;
+    padding: 14px; /* Adjust padding as needed */
+}
+
+.icons img {
+    margin-left: 10px; /* Space between icons */
+}
+
+#image1 {
+    border: 5px solid lightgray; /* Change the color and thickness as needed */
+    border-radius: 8px; /* Optional: add rounded corners */
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+
+}
+
+#image9 {
+    border: 10px solid lightgray; 
+    border-radius: 8px; 
+}
+
+#image2 {
+    border: 5px solid lightgray; /* Change the color and thickness as needed */
+    border-radius: 8px; /* Optional: add rounded corners */
+  }
+#image3 {
+    border: 5px solid lightgray; /* Change the color and thickness as needed */
+    border-radius: 8px; /* Optional: add rounded corners */
+}
+
+#image4 {
+    border: 5px solid lightgray; /* Change the color and thickness as needed */
+    border-radius: 8px; /* Optional: add rounded corners */
+}
+
+h2 {
+   font-family: rubik;
+   font-size: 30px;
+   text-align: center;
+
+}
+
+#image5 {
+    border: 5px solid lightgray; /* Change the color and thickness as needed */
+    border-radius: 8px; /* Optional: add rounded corners */
+}
+
+#image6 {
+    border: 5px solid lightgray; /* Change the color and thickness as needed */
+    border-radius: 8px; /* Optional: add rounded corners */
+}
+
+#image7 {
+    border: 5px solid lightgray; /* Change the color and thickness as needed */
+    border-radius: 8px; /* Optional: add rounded corners */
+}
+
+#image8 {
+    border: 5px solid lightgray; /* Change the color and thickness as needed */
+    border-radius: 8px; /* Optional: add rounded corners */
+}
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: lightgray;
+  color: white;
+  border-radius: 12px;
+  font-family: rubik;
+   font-size: 15px;
+   color: black;
+
+
